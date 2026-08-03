@@ -1,0 +1,13 @@
+# Main application dependencies — ingest/warehouse load/tests.
+# Install into .venv (this project was built against Python 3.14).
+#
+# PySpark is NOT listed here on purpose — see requirements-spark.txt and
+# README.md. Its supported Python version range needs to be checked before
+# installing anything (the same lesson learned with Airflow in
+# energy-data-pipeline), so it may need its own venv.
+requests==2.32.3
+pandas==2.3.3
+python-dotenv==1.0.1
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
+pytest==8.3.4
