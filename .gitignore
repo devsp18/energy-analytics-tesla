@@ -1,0 +1,32 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-spark/
+venv/
+.pytest_cache/
+
+# Data (raw/processed data is fetched, not committed — keep repo light and avoid stale snapshots)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Spark local-mode runtime artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
