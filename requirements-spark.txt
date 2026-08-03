@@ -1,0 +1,9 @@
+# PySpark — installed into the SAME .venv as the rest of this project
+# (unlike energy-data-pipeline's Airflow, which needed a separate venv).
+# Checked before installing anything: PySpark 4.2.0's PyPI metadata lists
+# Python 3.14 as a supported classifier (requires_python >=3.10, no upper
+# bound), and it ships as a pure-Python sdist with no C-extension wheels
+# to break on a newer Python — Java is the actual JVM dependency, not
+# Python version. See README.md for the Java 17 setup this required
+# (Spark 4.2.0 needs Java 17/21/25; this machine only had Java 11).
+pyspark==4.2.0
