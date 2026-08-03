@@ -1,0 +1,14 @@
+region_code,region_name,avg_hourly_interchange_mwh,interchange_role
+CAL,California,-4712.2,Net Importer
+MIDW,Midwest,-2910.5,Net Importer
+NY,New York,-2202.1,Net Importer
+NE,New England,-1094.9,Net Importer
+TEN,Tennessee,-806.9,Net Importer
+FLA,Florida,-343.5,Net Importer
+CAR,Carolinas,-243.5,Net Importer
+TEX,Texas,-36.3,Net Importer
+CENT,Central,697.4,Net Exporter
+SE,Southeast,1446.1,Net Exporter
+SW,Southwest,1597.0,Net Exporter
+MIDA,Mid-Atlantic,2832.0,Net Exporter
+NW,Northwest,3222.1,Net Exporter
