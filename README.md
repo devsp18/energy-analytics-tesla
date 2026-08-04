@@ -171,8 +171,8 @@ question this dataset can actually answer - run for real against all
 **Query 1 - window function: regional generation ranking.** Ranks all 13
 regions by average hourly net generation (`value_type = 'NG'`) for January
 2025 using `RANK() OVER (ORDER BY AVG(value_mwh) DESC)`. Real result:
-**Mid-Atlantic (PJM) generates the most** at 114,224.8 MWh/hr average - more
-than double the next region (Midwest, 90,817.2 MWh/hr) - while **New England
+**Mid-Atlantic (PJM) generates the most** at 114,224.8 MWh/hr average - about
+1.26x the next region (Midwest, 90,817.2 MWh/hr) - while **New England
 generates the least** at 11,862.8 MWh/hr, about a tenth of Mid-Atlantic's
 output. This is also the query used as the optimization centerpiece below.
 
